@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    nav{
+        background-color: black;
+        height: 3cap;
+        display: flex;
+        justify-content: left;
+        padding-left: 29px;
+        margin:
+        
+        
+    }
+    .navicon{
+        background-color: gray;
+        width: 20px;
+        border-radius: 50%;
+        padding: 3px;
+        margin: 4px;
+        
+        
+        
+      
+    
+    }
+    .navicon i{
+       
+       padding: px;
+       display: flex;
+       justify-content: center;
+       
+    }
+    .no{
+        color: white;
+        margin-left: 57%;
+        margin-top: 9px;
+    }
+    .callme{
+        background-color: #4fd63d;
+        height: 2cap;
+        width: 90px;
+        text-align: center;
+        margin-top: 6px;
+        margin-left: 9px;
+        box-shadow: 0 2px 4px #4fd63d;
+    }
+    .navtwo{
+       background-color: rgb(248, 244, 246);
+       display: flex;
+       justify-content: right;
+       padding: 2%;
+     
+    }
+    .item{
+        display: inline;
+        margin: 9px;
+        
+    }
+   
+    .navtwo a{
+       color: black;
+       text-decoration: none;     
+       
+    }
+    .navo{
+        margin-top: 20px;
+    }
+    .navimg{
+        margin-right: 37%;
+        
+    }
+/* .background{
+    background-color: #bee62e;
+    height: 30cap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.background H1{
+    color: white;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-top:3cap ;
+
+}
+.background p{ 
+    margin-bottom: 30px;
+} */
+.box1{
+    background-color: #bee62e;
+    color: white;
+    height: 33cap;
+    
+}
+
+.b1h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin-top: 0px;
+    text-align: center;
+    font-size: 50px;
+    
+}
+.box1 h1{
+    padding-top: 100px;
+    margin: 20px;
+    padding-bottom: 30px;
+
+
+}
+.b1p{
+    
+    margin: -20px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.readmore{
+    display: flex;
+    margin: auto;
+    margin-top: 4%;
+    font-size: 17px;
+    background-color: yellow;
+    box-shadow: 0px 3px 3px 2px rgb(94, 122, 36);
+    border: none;
+    padding: 10px;
+
+}
+.box2{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+}
+.box2 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: -80px;
+    
+}
+.b2p{
+    text-align: center;
+    margin-top: -25px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 3%;
+}
+.icon{
+    background-color: rgba(110, 108, 108, 0.158);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.icon i{
+    display: flex;
+    justify-content: center;
+    padding-top: 17px;
+}
+.containertext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text{
+    text-align: center;
+}
+.box3{
+    position: relative;
+ width: 100%;}
+ .box3 img{
+    width: 100%;
+ }
+ .aboutus{
+    position: absolute;
+    top: 1%;
+  left: 40%;
+ font-size: 2cap;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+.para{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+} 
+.readmore2{
+    font-size: 17px;
+    background-color: yellow;
+    box-shadow: 0px 3px 3px 2px rgb(94, 122, 36);
+    border: none;
+    position: absolute;
+    left: 5%;
+    top: 85%;
+    padding: 10px;
+}
+.box4{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+}
+.b4h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: -80px;
+    
+}
+.b4p{
+    text-align: center;
+    margin-top: -25px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 5%;
+   
+}
+.container2 img{
+border-radius: 50%;
+position: absolute;
+bottom: 85%;
+left: 35%;
+    
+}
+.c2h2{
+    margin-top: 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;
+
+}
+.starbox{
+    background-color: rgba(230, 231, 233, 0.685);
+    width: 18cap;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+
+}
+.readmore3{
+    color: #bee62e;
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    height: 60cap;
+}
+.fp{
+    color: white;
+    text-align: center;
+    margin-top: -25px;
+    
+    
+}
+.fh1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    padding-top: 1cap;
+ 
+    text-align: center;
+}
+
+.fnav{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+   
+    padding-top: 2cap;
+}
+.li{
+    padding-left: 4cap;
+}
+.collage{
+   
+    padding-left: 24cap;
+   
+}
+.image{
+    flex: 33.33%;
+    padding: 5px;
+}
+
+
+   
+</style>
+</head>
+<body>
+   <nav>
+<div class="navicon"> 
+<i class="fa-brands fa-facebook-f"></i>
+</div>
+
+<div class="navicon"> 
+    <i class="fa-brands fa-google-plus-g"></i>
+    </div>
+
+
+    <div class="navicon"> 
+        <i class="fa-brands fa-twitter"></i>
+        </div>
+
+
+        <div class="navicon"> 
+            <i class="fa-brands fa-youtube"></i>
+            </div>  
+              
+            
+            <div class="no">
+                <i class="fa-solid fa-phone" style="color: #4fd63d;"></i>
+                  +92 (304)386-6719
+                  <i class="fa-solid fa-phone" style="color: #4fd63d;"></i>
+                  +92(317)011-3001
+
+                  
+            </div>
+            <div class="callme">
+                Call me back
+
+              </div>
+   </nav> 
+
+    <section
+    
+    class="navtwo">
+     <div class="navimg"><img src="logo.png" alt="logo" height="50" width="90" ></div> 
+    <div class="navo">
+        <div class="item"><a href="">WHY US</a></div>
+    <div class="item"><a href="">ABOUT</a></div>  
+    <div class="item"><a href="">SERVICES</a></div>    
+    <div class="item"><a href="">PROCESS</a</div>
+    <div class="item"><a href="">PROCESS</a</div>
+    <div class="item"><a href="">OUR SKILLS</a> </div>
+    <div class="item"><a href="">CONTACT US</a> </div>
+
+    
+</div>
+</div>
+    </section>
+
+    <!-- <div class="background">
+
+        <h1>WE ARE EXPERTS </h1> 
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam sint illum i 
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam sint illum i
+        </p>
+
+    </div> -->
+<div class="box1">
+    <h1 class="b1h1">WE ARE EXPERTS</h1>
+<p class="b1p"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum consectetur pariatur minus, voluptatem <br>laborum impedit natus nulla, quisquam obcaecati cupiditate, dolorum nam iste laudantium animi.</p>
+<button class="readmore">READ MORE</button>
+</div>
+
+<div class="box2">
+<h2 class="b2h1"> OUR <FONT color="bee62e">ADVANTAGES</FONT></h2>
+<p class="b2p"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+     Et sequi enim dolorum aut distinctio quasi at expedita qui eius exercitationem?</p>
+</div>
+
+<div class="container">
+    <div class="icon">
+         <i class="fa-regular fa-lightbulb fa-7x" style="color: #bee62e;">
+        </i>
+    </div>
+    <div class="icon">
+        <i class="fa-regular fa-thumbs-up fa-7x" style="color: #bee62e;"></i>
+    </div>
+    <div class="icon">
+        <i class="fa-regular fa-clock fa-7x" style="color: #bee62e;"></i>
+    </div>
+    <div class="icon">
+        <i class="fa-solid fa-people-group fa-7x" style="color: #bee62e;"></i>
+    </div>
+    <div class="icon">
+        <i class="fa-solid fa-message fa-7x" style="color: #bee62e;"></i>
+    </div>
+</div>
+
+
+
+<div class="containertext">
+
+
+
+<div class="text"> <h2>INOVATION</h2>
+<p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Voluptatibus repellendus re</p></div>
+
+
+<div class="text"> <h2>QUALITY</h2>
+    <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Voluptatibus repellendus re</p></div>
+
+    <div class="text"> <h2>EXPIRIENCE</h2>
+        <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Voluptatibus repellendus re</p></div>
+        
+
+        <div class="text"> <h2>HAPPY CLIENT</h2>
+            <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Voluptatibus repellendus re</p></div>
+            
+
+
+            <div class="text"> <h2>SUPPORT</h2>
+                <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Voluptatibus repellendus re</p></div>
+                </div>
+    
+    </div>
+
+<div class="box3">
+    <img src="background.jpg" alt="">
+<div class="aboutus"><h1> ABOUT <font color="#bee62e"> US</font></h1></div>
+<div class="para"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+     Nisi velit ad id doloribus quaerat. Aliquid, quaerat. Cupiditate <br>
+      officiis optio corporis.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ex qui  <br>
+    voluptates blanditiis, consequatur natus! Ex harum qui quae cupiditate,<br>
+     fugiat provident sint ullam rerum vero? Pariatur hic corporis dolor quidem,<br>
+      a quia at, quas repellat, vitae suscipit facere velit.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+        Tempore fuga laborum amet minus tenetur ut eius! Quae repellat impedit <br>
+         temporibus aliquid, in, aliquam, laboriosam libero doloremque ratione a <br>
+          suscipit. Voluptas quos, maxime alias explicabo fugit tenetur officiis laboriosam <br>
+           culpa ab sequi aliquid rerum laudantium magnam nobis recusandae iusto <br>
+           sapiente amet dolore similique aperiam quas consequatur! Incidunt repellendus <br>
+          omnis voluptas necessitatibus?</p></div>
+
+          <button class="readmore2"> READ MORE</button>
+</div>
+
+<div class="box4">
+    <div class="b4h1"> <h1> OUR  <font color="#bee62e"> SERVICES</font></h1></div>
+    <div class="b4p"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,<br>
+         repellendus error laborum nihil minus nemo laudantium ab porro at sit!</div>
+</div>
+
+<div class="container2">
+    <div class="starbox"> 
+        <img src="star.png" alt="" width="60px" height="60px">
+        <div class="c2h2"> WEB DESIGN</div>
+        <div class="c2p"> <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing <br> elit. Eveniet, sequi?</p></div>
+        <div class="readmore3"> <p>read more</p></div>
+    </div>
+
+
+    <div class="starbox"> 
+        <img src="star.png" alt="" width="60px" height="60px">
+        <div class="c2h2"> GRAPHIC DESIGN</div>
+        <div class="c2p"> <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing <br> elit. Eveniet, sequi?</p></div>
+        <div class="readmore3"> <p>read more</p></div>
+    </div>
+
+
+
+    <div class="starbox"> 
+        <img src="star.png" alt="" width="60px" height="60px">
+        <div class="c2h2"> BRANDING</div>
+        <div class="c2p"> <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing <br> elit. Eveniet, sequi?</p></div>
+        <div class="readmore3"> <p>read more</p></div>
+    </div>
+
+
+
+    <div class="starbox"> 
+        <img src="star.png" alt="" width="60px" height="60px">
+        <div class="c2h2"> MARKETING</div>
+        <div class="c2p"> <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing <br> elit. Eveniet, sequi?</p></div>
+        <div class="readmore3"> <p>read more</p></div>
+    </div>
+</div>
+
+<footer>
+<div class="fh1"><h1> <font color="white">OUR </font>
+    <font color="bee62e">PORTFOLIO </font></h1></div>
+    <div class="fp">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,<br>
+        repellendus error laborum nihil minus nemo laudantium ab porro at sit!</div>
+
+
+        <div class="fnav"> 
+
+<div class="li">WEBDESIGN </div>
+<div class="li"> GRAPHIC DESIGN</div>
+<div class="li">BRANDING </div>
+<div class="li"> LOGO</div>
+<div class="li">MARKETING </div>
+<div class="li"> ADVERTISMENT</div>
+ </div>
+
+
+
+ 
+            
+<table class="collage">
+    <tr> 
+        <td><img src="l1.png" alt="" width="200px" height="200px"></td>
+        <td><img src="l2.jpg" alt="" width="200px" height="200px"></td>
+        <td><img src="l3.jpeg" alt="" width="200px" height="200px"></td>
+        <td><img src="l4.jpeg" alt="" width="200px" height="200px"></td>
+    </tr>
+
+    <tr>
+
+        <td><img src="l5.png" alt="" width="200px" height="200px"></td>
+        <td> <img src="l6.jpg" alt="" width="200px" height="200px"></td>
+        <td> <img src="l7.jpg" width="200px" height="200px"></td>
+        <td> <img src="l8.png" alt="" width="200px" height="200px"></td>
+    </tr>
+</table>
+</footer>
+
+
+</body>
+</html
